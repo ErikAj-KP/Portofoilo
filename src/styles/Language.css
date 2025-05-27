@@ -1,0 +1,71 @@
+.language-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.text-content {
+  margin-bottom: 2rem;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease;
+}
+
+.text-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease;
+}
+
+/* Japanese theme */
+.japanese-theme h2 {
+  color: #e74c3c;
+}
+
+.japanese-theme p {
+  color: #ffffff;
+}
+
+/* English theme */
+.english-theme h2 {
+  color: #3498db;
+}
+
+.english-theme p {
+  color: #ffffff;
+}
+
+/* Portuguese theme */
+.portuguese-theme h2 {
+  color: #2ecc71;
+}
+
+.portuguese-theme p {
+  color: #ffffff;
+}
+
+.language-toggle {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-toggle:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}
+
+.language-toggle:active {
+  transform: translateY(0);
+} 

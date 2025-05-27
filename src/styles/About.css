@@ -1,0 +1,30 @@
+.language-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+.language-toggle {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.language-toggle:hover {
+    background: #f0f0f0;
+    border-color: #999;
+}
+
+.language-toggle:active {
+    transform: scale(0.98);
+} 
